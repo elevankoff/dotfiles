@@ -10,6 +10,12 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # iterm2
 brew install --cask iterm2
 
+# git+github
+git config --global user.name "elevankoff"
+git config --global user.email "e.levankoff@yandex.ru"
+
+gh auth login --git-protocol ssh
+
 # oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -31,5 +37,6 @@ rm -rf fonts
 
 # alt-tab
 brew install --cask alt-tab
-
 defaults import com.lwouis.alt-tab-macos ./com.lwouis.alt-tab-macos.plist
+
+# TODO: System Preferences -> Desktop & Dock -> Automatically rearrange spaces based on most recent use: Off
