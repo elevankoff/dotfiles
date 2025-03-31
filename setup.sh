@@ -32,7 +32,7 @@ cd fonts
 cd ..
 rm -rf fonts
 
-# TODO: import Default.json as zsh profile
+# TODO: import Default.json as iTerm profile
 
 # TODO: fix fonts: https://stackoverflow.com/questions/70857372/how-i-can-remove-the-question-marks-characters-from-zsh-shell-terminal-line
 
@@ -42,8 +42,12 @@ defaults import com.lwouis.alt-tab-macos ./com.lwouis.alt-tab-macos.plist
 
 # TODO: System Preferences -> Desktop & Dock -> Automatically rearrange spaces based on most recent use: Off
 
-# intelij-idea
-brew install --cask intellij-idea-ce
-
 # python
 brew install python
+
+# apps
+brew install --cask telegram
+brew install --cask yandex
+brew install --cask intellij-idea-ce
+brew install --cask zoom
+
