@@ -9,6 +9,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # iterm2
 brew install --cask iterm2
+# TODO: Give full disk access for iTerm: https://apple.stackexchange.com/questions/388268/how-to-stop-terminal-from-asking-for-access-to-some-folders
 
 # git+github
 git config --global user.name "elevankoff"
@@ -40,3 +41,9 @@ brew install --cask alt-tab
 defaults import com.lwouis.alt-tab-macos ./com.lwouis.alt-tab-macos.plist
 
 # TODO: System Preferences -> Desktop & Dock -> Automatically rearrange spaces based on most recent use: Off
+
+# intelij-idea
+brew install --cask intellij-idea-ce
+
+# python
+brew install python
