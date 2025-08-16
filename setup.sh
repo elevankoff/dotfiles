@@ -2,7 +2,7 @@ cp vimrc ~/.vimrc
 
 ./brew/install.sh &&
 ./iterm2/install.sh &&
-./github/git/config.sh &&
+./git/config.sh &&
 ./ohmyzsh/install.sh &&
 ./alttab/install.sh &&
 ./python/install.sh &&
