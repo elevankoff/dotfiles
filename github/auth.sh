@@ -1,1 +1,1 @@
-gh auth login
+gh auth login --git-protocol ssh
