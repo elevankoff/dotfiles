@@ -1,4 +1,4 @@
-cp vimrc ~/.vimrc
+cp resources/vimrc ~/.vimrc
 
 ./brew/install.sh &&
 ./iterm2/install.sh &&
